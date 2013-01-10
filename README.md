@@ -7,6 +7,8 @@ Extensions for ojo file-watching library.
 
 * track-appends: An ojo extension for tracking append versus non-append file modifications. Provides information to the body of the response on whether or not a file modification is append-only, as well as a crc checksum of the file, the current bit position, and the difference in position from the last event.
 
+**Build status:** [![Build Status](https://secure.travis-ci.org/drakerlabs/ojo.extension.png?branch=master)](http://travis-ci.org/drakerlabs/ojo.extension)
+
 ## Dependency Coordinates
 
 https://clojars.org/ojo.extension
